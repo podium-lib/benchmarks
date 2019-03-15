@@ -1,0 +1,25 @@
+{
+  "name": "@podium/benchmarks",
+  "version": "1.0.0",
+  "description": "Benchmark suite to keep track of how Podium performs",
+  "main": "lib/bench.js",
+  "scripts": {
+    "start": "node ./lib/bench.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/podium-lib/benchmarks.git"
+  },
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/podium-lib/benchmarks/issues"
+  },
+  "homepage": "https://github.com/podium-lib/benchmarks#readme",
+  "dependencies": {
+    "@podium/layout": "3.0.3",
+    "@podium/podlet": "3.0.2",
+    "@podium/utils": "3.1.1",
+    "autocannon": "^3.2.0"
+  }
+}
